@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "somethings",
+  "info": {
+    "singularName": "something",
+    "pluralName": "somethings",
+    "displayName": "something"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TesterVideo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
